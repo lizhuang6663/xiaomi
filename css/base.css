@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input,
+button {
+    border: 0;
+    outline: none;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?ktz2b5');
+    src: url('../fonts/icomoon.eot?ktz2b5#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?ktz2b5') format('truetype'),
+        url('../fonts/icomoon.woff?ktz2b5') format('woff'),
+        url('../fonts/icomoon.svg?ktz2b5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
